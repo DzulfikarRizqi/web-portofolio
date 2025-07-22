@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer components {
+    .primary {
+        @apply text-[#4338ca];
+    }
+    .slate {
+        @apply text-slate-900;
+    }
+}
+
+@theme {
+    --breakpoint-2xl: 1320px;
+}
