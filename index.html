@@ -6,15 +6,49 @@
     <title>Dzulfikar Rizqi's Portofolio</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
-<body>
+<body class="font-karla">
 
+    <!-- Navbar Section Start -->
+     <header class="absolute left-0 top-0 w-full flex items-center z-10 bg-transparent">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary py-6 block">dzulfikarrizqi</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 cursor-pointer lg:hidden">
+                        <span class="hamburger-line transition-transform duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition-transform duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition-transform duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg right-4 max-w-64 w-full top-full lg:block lg:bg-transparent lg:static lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base font-semibold text-black py-2 mx-8 group-hover:text-primary">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base font-semibold text-black py-2 mx-8 group-hover:text-primary">Tentang Saya</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio" class="text-base font-semibold text-black py-2 mx-8 group-hover:text-primary">Portofolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#kontak" class="text-base font-semibold text-black py-2 mx-8 group-hover:text-primary">Kontak</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </header>
+     <!-- Navbar Section End -->
+      
     <!-- Hero Section Start -->
-
     <section id="home" class="pt-36">
         <div class="container mx-auto">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2 lg:px-0">
-                    <h1 class="text-lg font-bold text-primary sm:text-xl lg:text-2xl">Halo Semua, Saya<span class="block font-bold text-4xl mt-1 text-black lg:text-5xl uppercase">Dzulfikar Rizqi</span></h1>
+                    <h1 class="text-lg font-bold text-primary sm:text-xl lg:text-2xl">Halo Semua, Saya<span class="block font-bold text-4xl text-black lg:text-5xl">Dzulfikar Rizqi</span></h1>
                     <h2 class="text-lg font-semibold mb-5 text-secondary sm:text-xl">Undergraduate Student</h2>
                     <p class="mb-8 font-medium text-base sm:text-xl">Mahasiswa dari jurusan IT yang memiliki rasa ingin tahu tinggi</p>
                     <a href="#" class="bg-primary text-white py-3 px-5 font-semibold shadow-lg rounded-3xl hover:bg-[#1a127c] transition-colors duration-300 ease-in-out">Hubungi saya</a> 
@@ -35,7 +69,6 @@
             </div>
         </div>
     </section>
-
     <!-- Hero Section End -->
 
     <!-- About Section Start -->
@@ -65,9 +98,14 @@
                                 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 
                                 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
                          </a>
-
+                         <!-- LinkedIn -->
+                          <a href="http://linkedin.com/in/dzulfikar-rizqi-ramadhani-b59589323" target="_blank" class="w-9 h-9 mr-2 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50"><path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z 
+                                 M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 
+                                 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path></svg>
+                          </a>
                         <!-- GitHub -->
-                        <a href="http://linkedin.com/in/dzulfikar-rizqi-ramadhani-b59589323" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <a href="https://github.com/DzulfikarRizqi" target="_blank" class="w-9 h-9 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
                             <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 
                                 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 
                                 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 
@@ -75,18 +113,14 @@
                                 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 
                                 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
                         </a>
-                        <!-- LinkedIn -->
-                         <a href="https://github.com/DzulfikarRizqi" target="_blank" class="w-9 h-9 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50"><path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z 
-                                M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 
-                                c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path></svg>
-                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- About Section End -->
-    
+
+
+<script src="./dist/js/script.js"></script>
 </body>
 </html>
