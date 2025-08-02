@@ -53,11 +53,11 @@
     @apply -rotate-45;
 }
 
-.portfolio-grid > div:nth-child(odd) {
+.portofolio-grid > div:nth-child(odd) {
   @apply mr-14;
 
 }
-.portfolio-grid > div:nth-child(even) {
+.portofolio-grid > div:nth-child(even) {
   @apply ml-14;
 }
 
