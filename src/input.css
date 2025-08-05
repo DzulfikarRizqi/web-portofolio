@@ -54,11 +54,11 @@
 }
 
 .portofolio-grid > div:nth-child(odd) {
-  @apply mr-14;
+  @apply xl:mr-12;
 
 }
 .portofolio-grid > div:nth-child(even) {
-  @apply ml-14;
+  @apply xl:ml-12;
 }
 
 .navbar-fixed {
